@@ -1,0 +1,20 @@
+{
+  "name": "eslint-plugin-import-order-alphabetical",
+  "version": "0.0.1",
+  "description": "eslint-plugin-import/order, but with alphabetical sorting",
+  "main": "index.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "2.x - 5.x"
+  },
+  "dependencies": {
+    "eslint-module-utils": "^2.2.0",
+    "lodash": "^4.17.4",
+    "resolve": "^1.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/janpaul123/eslint-plugin-import-order-alphabetical"
+  },
+  "homepage": "https://github.com/janpaul123/eslint-plugin-import-order-alphabetical"
+}
