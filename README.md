@@ -25,3 +25,7 @@ rules: {
 ```
 
 For more detailed options, see [eslint-plugin-import/order](https://github.com/benmosher/eslint-plugin-import/blob/37554fe98/docs/rules/order.md).
+
+## Note
+
+❤️ Thank you to the people working on eslint-plugin-import and related projects. It's not easy to maintain open source and I really do appreciate the work that goes into it. ❤️
