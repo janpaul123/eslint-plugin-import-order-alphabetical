@@ -28,8 +28,13 @@ function isBuiltIn(name, settings) {
 }
 
 function isExternalPath(path, name, settings) {
-  const folders = (settings && settings['import/external-module-folders']) || ['node_modules']
-  return !path || folders.some(folder => -1 < path.indexOf(join(folder, name)))
+  const folders = (settings && settings["import/external-module-folders"]) || ["node_modules"];
+  const externalPackages = (settings && settings["import/external-packages"]) || [];
+  return (
+    !path ||
+    folders.some((folder) => -1 < path.indexOf(join(folder, name))) ||
+    externalPackages.some((package) => path.includes(package))
+  );
 }
 
 const externalModuleRegExp = /^\w/
