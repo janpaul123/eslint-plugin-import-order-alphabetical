@@ -5,7 +5,7 @@
   "main": "index.js",
   "license": "MIT",
   "peerDependencies": {
-    "eslint": "2.x - 5.x"
+    "eslint": "2 - 6"
   },
   "dependencies": {
     "eslint-module-utils": "^2.2.0",
