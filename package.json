@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-import-order-alphabetical",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "eslint-plugin-import/order, but with alphabetical sorting",
   "main": "index.js",
   "license": "MIT",
